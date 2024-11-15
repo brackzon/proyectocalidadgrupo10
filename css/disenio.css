@@ -1,0 +1,70 @@
+
+#im {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(5px);
+
+    
+}
+
+
+/*
+<img id="im" src="images/fondo.jpg" alt="fondo" width="100%">
+*/
+#contenedor_fondo,#contenedor_bus {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+
+#carta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+#formulario {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(85, 85, 83);
+    opacity: 0.8;
+    padding-bottom: 30 px;
+    padding-top: 25px;
+    color: white;
+}
+
+#seleccion {
+    position: relative;
+    top: 15px;
+}
+
+#check {
+    position: relative;
+    top: 15px;
+}
+
+#enviar_co {
+    position: relative;
+    top: 20px;
+}
+
+#modificar_co {
+    position: relative;
+    top: 20px;
+}
+
+#eliminar_co {
+    position: relative;
+    top: 20px;
+}

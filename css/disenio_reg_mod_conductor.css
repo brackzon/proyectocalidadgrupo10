@@ -1,0 +1,40 @@
+#formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: rgb(85, 85, 83);
+    opacity: 0.8;
+    padding-bottom: 30 px;
+    padding-top: 25px;
+    
+    text-align: center;
+}
+
+#seleccion {
+    position: relative;
+    top: 15px;
+}
+
+#check {
+    position: relative;
+    top: 15px;
+}
+
+#enviar_co {
+    position: relative;
+    top: 20px;
+}
+
+#modificar_co {
+    position: relative;
+    top: 20px;
+}
+
+#eliminar_co {
+    position: relative;
+    top: 20px;
+}
+
+
+

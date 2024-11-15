@@ -1,0 +1,57 @@
+
+.menu {height: 20vh;}
+
+#contenedor_fondo {
+    position: relative;
+    text-align: center;
+    height: 79.9vh;
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#formulario {
+   position: relative;
+    margin-top: -50px;
+
+}
+
+#contenido_principal {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+}
+
+.texto {position: relative; z-index: 1; color: black;}
+.imagen {
+    position: absolute;
+    object-fit: cover;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+
+/*
+#contenido_imagen {
+    background-image: url("../images/bus.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50%;
+
+}*/
+
